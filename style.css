@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.Button {
+  width: 5rem;
+  padding: 20px;
+  margin: 3px 3px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-color: green;
+  color:green;
+}
+.Button:hover {
+  background-color: green;
+  color: white;
+}
+#keyboard{
+  text-align: center;
+  border: 10px solid #71c171;
+  background-color: #8aea8a;
+  border-radius: 9px;
+  margin: 20px auto;
+  padding: 41px;
+  width: 1280px;
+}
+
+.display {
+  font-style: bold;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border: 3px solid #2e0d44;
+  background-color: #c48aea;
+  border-radius: 9px;
+  padding: 6px;
+  margin:auto;
+  width: 1280px;
+  height: 300px;
+  box-sizing: border-box;
+  position : relative;
+}
+  
+
+.boxe{
+  font-style: bold;
+  border-radius: 9px;
+  border: 2px solid #ff94a6;
+  background-color: #ff94a6;
+  box-sizing: border-box;
+  height: 280px ;
+  width: 200px;
+  float:left;
+  margin:2px;
+}
+.span{
+  font-size: 70px;
+  margin:40px;
+  padding:40px;
+}
+#play{
+  display:block;
+   text-align: center;
+    width:320px;
+    margin:auto;
+
+}
+a {
+    text-decoration: none;
+color:#002e00;
+ 
+}
+a:hover{
+   color: white;
+}
+
+
+
